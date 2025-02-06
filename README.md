@@ -67,7 +67,7 @@ clickhouse/clickhouse-server
 - superset-clickhouse
 
 ```bash
-docker exec superset pip install psycopg2
+docker exec superset pip install psycopg2-binary (psycopg2)
 docker exec superset pip install clickhouse-connect
 docker restart superset
 ```
